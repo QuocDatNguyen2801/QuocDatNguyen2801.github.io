@@ -9,15 +9,21 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/', (req, res) => {
+    res.redirect('/blog');
+});
+
 app.get('/blog', (req, res) => {
     res.render('blog');
 });
 
-// Blog detail route (static for now; slug ignored)
 app.get('/blog/:slug', (req, res) => {
     res.render('blog-detail');
 });
 
-app.listen(5000, () => {
-    console.log('Server is running on http://localhost:5000');
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
 });
+
+module.exports = app;

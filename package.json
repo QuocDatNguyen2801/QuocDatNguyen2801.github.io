@@ -2,13 +2,13 @@
   "name": "group-project-wps-2025c-openai-inspired",
   "version": "1.0.0",
   "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/sn4HlWYG)",
-  "homepage": "https://github.com/RMIT-Vietnam-Teaching/group-project-wps-2025c-openai-inspired#readme",
+  "homepage": "https://github.com/QuocDatNguyen2801/QuocDatNguyen2801.github.io#readme",
   "bugs": {
-    "url": "https://github.com/RMIT-Vietnam-Teaching/group-project-wps-2025c-openai-inspired/issues"
+    "url": "https://github.com/QuocDatNguyen2801/QuocDatNguyen2801.github.io/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RMIT-Vietnam-Teaching/group-project-wps-2025c-openai-inspired.git"
+    "url": "git+https://github.com/QuocDatNguyen2801/QuocDatNguyen2801.github.io.git"
   },
   "license": "ISC",
   "author": "123",
@@ -16,6 +16,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "dependencies": {
