@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+42c0e15ab534549c71c165a2fb651bd63d3b83ed refs/remotes/origin/Blog
+861673ab3b2e300fd4572e323ee8b027803acbf3 refs/remotes/origin/Discussion-Forum
+963eb1b41804e09a1254cb0cd748de4d48cbdf3b refs/remotes/origin/Login_Register_Page
+5c7c540441f7105a9b53077a2e14c5c3b702802c refs/remotes/origin/New-Review-Rating
+b6fd92cfedbc9076eef3159d287e72be16e23e59 refs/remotes/origin/Review-And-Rating
+861673ab3b2e300fd4572e323ee8b027803acbf3 refs/remotes/origin/main
+923b538e6fc136875e78b444fd62382aa2217df5 refs/remotes/origin/trung_shopping_cart
